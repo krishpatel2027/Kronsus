@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+node_modules/
+Dockerfile
+docker-compose.yml
+website/css/
+website/js/
+*.sqlite3
