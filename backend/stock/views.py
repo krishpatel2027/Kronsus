@@ -8,7 +8,7 @@ from .models import StockTransaction
 from .serializers import StockTransactionSerializer
 from products.models import Product
 from products.serializers import ProductSerializer
-from backend.users.permissions import IsCompanyMember, HasActiveSubscription
+from users.permissions import IsCompanyMember, HasActiveSubscription
 
 
 class StockTransactionViewSet(viewsets.ReadOnlyModelViewSet):

@@ -3,7 +3,7 @@ from rest_framework.pagination import PageNumberPagination
 from django.db.models import Q
 from .models import Product
 from .serializers import ProductSerializer
-from backend.users.permissions import IsCompanyMember, HasActiveSubscription
+from users.permissions import IsCompanyMember, HasActiveSubscription
 
 
 class StandardResultsSetPagination(PageNumberPagination):
